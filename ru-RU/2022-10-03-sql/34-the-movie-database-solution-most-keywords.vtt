@@ -65,19 +65,19 @@ ON mk.movie-id = m.id
 
 15
 00:01:14.770 --> 00:01:17.866
-INNER JOIN categories
+INNER JOIN categories c
 
 16
 00:01:24.031 --> 00:01:25.280
-On.
+ON
 
 17
 00:01:26.886 --> 00:01:31.459
-Mk.category_id = c.id.
+mk.category_id = c.id.
 
 18
 00:01:31.459 --> 00:01:35.462
-То есть category id из movie
+То есть category_id из movie_keywords
 равен id категории.
 
 19
